@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Tejashree Trivedi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Navbar Section -->
+        <nav id="navbar">
+            <a href="#home" class="logo"><span class="gradient-blue">TEJASHREE</span></a>
+            <ul class="right" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#experience" class="nav-link">Journey</a></li>
+                <li><a href="#contact" class="nav-link">Leave a Message !</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="status"><span class="dot"></span> Available for opportunities</div>
+        <section class="greet" id="home">Hello Techbuds ! I'm</section>
+        <div>
+            <div class="text">
+                <p>T</p>
+                <p>E</p>
+                <p>J</p>
+                <p>A</p>
+                <p>S</p>
+                <p>H</p>
+                <p>R</p>
+                <p>E</p>
+                <p>E</p>
+                &nbsp;
+                <p>T</p>
+                <p>R</p>
+                <p>I</p>
+                <p>V</p>
+                <p>E</p>
+                <p>D</p>
+                <p>I</p>
+                <p>.</p>
+            </div>
+
+            <div class="subtitle">Full-Stack Developer & UI / UX Designer</div>
+            <div class="desc">
+                Crafting clean, user-friendly interfaces with passion. Currently building impactful
+                digital experiences at <span class="gradient-blue">7Script Tech Pvt Ltd.</span>
+            </div>
+
+            <div class="buttons">
+                <a href="#projects"><button class="btn primary" style="color: white;">View My Work</button></a>
+                <a href="#contact"><button class="btn">Get in Touch</button></a>
+            </div>
+
+            <a href="#about" class="scroll">
+                Scroll Down ↓
+            </a>
+
+        </div>
+        <div class="blob"></div>
+        </section>
+    </main>
+
+
+    <!-- About Me Section -->
+    <section class="about-section reveal" id="about">
+        <div class="about-container">
+
+            <div class="about-left reveal">
+                <span class="section-tag">— About Me</span>
+
+                <h2 class="about-title">
+                    Passionate about crafting
+                    <span class="gradient-blue">digital experiences</span>
+                </h2>
+
+                <p>
+                    I'm <strong>Tejashree Trivedi</strong>, a Full-Stack Developer with a strong
+                    focus on frontend technologies. Currently working at
+                    <strong>7Script Tech Pvt Ltd</strong>, I've had the opportunity to build and
+                    modify live projects that serve real users.
+                </p>
+
+                <p>
+                    My journey includes working on projects like
+                    <span class="highlight">Velox Car Services</span> and the
+                    <span class="highlight">7Tech Training Institute</span> platform, where
+                    I've honed my skills in creating clean, user-friendly interfaces.
+                </p>
+
+                <p>
+                    When I'm not coding, I'm exploring new design trends, learning new
+                    technologies, or finding ways to make the web more beautiful and accessible.
+                </p>
+
+                <a href="#contact"><button class="connect-btn">Let's Connect</button></a>
+            </div>
+
+            <div class="about-right">
+                <div class="info-card">
+                    <div class="icon">{"</>"}</div>
+                    <h4>Clean Code</h4>
+                    <p>Writing maintainable, efficient code</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">🎨</div>
+                    <h4>UI/UX Focus</h4>
+                    <p>Creating beautiful user experiences</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">⚡</div>
+                    <h4>Fast Learner</h4>
+                    <p>Quickly adapting to new technologies</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">✨</div>
+                    <h4>Detail Oriented</h4>
+                    <p>Pixel-perfect implementations</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills-section reveal" id="skills">
+        <div class="constellation-bg"></div>
+        <canvas id="constellation"></canvas>
+
+        <div class="skills-container">
+            <span class="section-tag">— My Arsenal</span>
+            <h2 class="skills-title">
+                Skills &
+                <span class="gradient-box">Expertise</span>
+            </h2>
+            <p class="skills-subtitle">
+                A snapshot of the technologies I work with regularly
+            </p>
+
+            <div class="skills-grid">
+                <!-- Card -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                    <h4>HTML5</h4>
+                    <div class="progress-ring" data-percent="95">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">95%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                    <h4>CSS3</h4>
+                    <div class="progress-ring" data-percent="90">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">90%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                    <h4>Bootstrap</h4>
+                    <div class="progress-ring" data-percent="90">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">90%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                    <h4>Tailwind</h4>
+                    <div class="progress-ring" data-percent="90">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">90%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <h4>JavaScript</h4>
+                    <div class="progress-ring" data-percent="80">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                    <h4>Node.js</h4>
+                    <div class="progress-ring" data-percent="80">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                        style="background-color: white;" />
+                    <h4>Express.js</h4>
+                    <div class="progress-ring" data-percent="92">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">92%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <h4>React</h4>
+                    <div class="progress-ring" data-percent="92">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">92%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                    <h4>MongoDB</h4>
+                    <div class="progress-ring" data-percent="85">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">85%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" />
+                    <h4>WordPress</h4>
+                    <div class="progress-ring" data-percent="80">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">80%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                    <h4>MySQL</h4>
+                    <div class="progress-ring" data-percent="85">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">85%</span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                    <h4>Git</h4>
+                    <div class="progress-ring" data-percent="88">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">88%</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        style="background-color: white;" />
+                    <h4>GitHub</h4>
+                    <div class="progress-ring" data-percent="90">
+                        <svg width="46" height="46">
+                            <circle cx="23" cy="23" r="20"></circle>
+                            <circle cx="23" cy="23" r="20"></circle>
+                        </svg>
+                        <span class="ring-text">90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects-section reveal" id="projects">
+        <div class="projects-container">
+            <span class="section-tag">— MY WORK</span>
+
+            <h2 class="projects-title">
+                Featured
+                <span class="gradient-box">Projects</span>
+            </h2>
+
+            <p class="projects-subtitle">
+                A curated collection of projects that showcase my skills in building beautiful,
+                functional digital experiences
+            </p>
+
+            <div class="projects-grid">
+                <!-- Project Card -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <div class="project-actions">
+                            <a href="https://veloxcarservice.com/" class="btn primary" style="color: white;">Live
+                                Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Velox Car Services</h3>
+                        <p>
+                            A comprehensive car service booking platform featuring modern UI,
+                            real-time booking management, service tracking, and seamless user experience.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>SaaS</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <a href="https://veloxcarservice.com/"><span class="arrow">↗</span></a>
+                    </div>
+                </div>
+
+                <!-- Project Card -->
+                <div class="project-card">
+                    <div class="project-media image-2">
+                        <div class="project-actions">
+                            <a href="#" class="btn primary" style="color: white;">Live Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>7Tech Training Institute</h3>
+                        <p>
+                            Educational platform with dynamic course listings, interactive enrollment
+                            system, and comprehensive learning management features.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <a href="https://7techtraining.com/"><span class="arrow">↗</span></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-media image-2">
+                        <div class="project-actions">
+                            <a href="#" class="btn primary" style="color: white;">Live Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>YUVI Agro Industries</h3>
+                        <p>
+                            YUVI Agro Industries is a manufacturing company specializing in high-quality agricultural
+                            spare parts. The website showcases a comprehensive product catalog, detailed specifications,
+                            and a streamlined inquiry system, helping farmers and distributors easily explore and
+                            connect with the brand.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <span class="arrow">↗</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-media image-2">
+                        <div class="project-actions">
+                            <a href="#" class="btn primary" style="color: white;">Live Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Romalam</h3>
+                        <p>
+                            Romalam is a premium laminate brand offering over 140+ unique designs for modern wall
+                            applications. The website highlights an extensive product collection with visually rich
+                            displays, making it easy for customers to explore textures, finishes, and styles for
+                            residential and commercial spaces.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+
+                        <a href="https://romalam.com/"><span class="arrow">↗</span></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-media image-2">
+                        <div class="project-actions">
+                            <a href="#" class="btn primary" style="color: white;">Live Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Genrix.in</h3>
+                        <p>
+                            Genrix Digital is a growth-focused digital solutions company that helps businesses build
+                            predictable revenue pipelines through structured lead generation, automation, and sales
+                            systems. The website highlights their expertise in transforming traditional sales processes
+                            into scalable, data-driven growth engines.
+                        </p>
+
+                        <div class="tags">
+                            <span>Wordpress</span>
+                        </div>
+
+                        <a href="https://genrix.in/"><span class="arrow">↗</span></a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-media image-2">
+                        <div class="project-actions">
+                            <a href="#" class="btn primary" style="color: white;">Live Demo</a>
+                            <!-- <a href="#" class="btn ghost">Source</a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>UI/UX Testing</h3>
+                        <p>
+                           
+                        </p>
+
+                        <div class="tags">
+                            <span>Testing</span>
+                        </div>
+
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Achievements Section -->
+    <section class="achievements-canvas reveal">
+        <section class="achievements" id="achievements">
+
+            <span class="pill">Recognition & Growth</span>
+            <h1>Achievements & <span class="gradient-box">Participations</span></h1>
+            <p class="subtitle">
+                Milestones that mark my journey of continuous learning and community involvement
+            </p>
+
+            <h2 class="sub-heading"><i class="fa-solid fa-trophy"></i> Awards & Certifications</h2>
+
+            <div class="cards">
+
+                <div class="card purple">
+                    <div class="icon"><i class="fa-solid fa-trophy white-icon"></i></div>
+                    <span class="date">August 2024</span>
+                    <h3 class="achievement-card-heading">Devang Mehta IT Award'24</h3>
+                    <p class="org">Gujarat Technological University</p>
+                    <p class="desc">Won third place for academic excellence.</p>
+                </div>
+
+                <div class="card purple">
+                    <div class="icon"><i class="fa-solid fa-award white-icon"></i></div>
+                    <span class="date">September 2025</span>
+                    <h3 class="achievement-card-heading">Devang Mehta IT Award'25</h3>
+                    <p class="org">Gujarat Technological University</p>
+                    <p class="desc">Won second place for academic excellence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="community">
+            <h2 class="community-title">
+                <i class="fa-solid fa-users"></i> Community & Events
+            </h2>
+
+            <div class="timeline">
+
+                <div class="event">
+                    <div class="dot1"></div>
+                    <div class="content">
+                        <h3>Google Developer Group </h3>
+                        <span class="badge">Participant</span>
+                        <p>Learned Flutter and Flutter-Flow</p>
+                        <span class="date"><i class="fa-regular fa-calendar"></i> 2024</span>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="dot1"></div>
+                    <div class="content">
+                        <h3>DevFest'25</h3>
+                        <span class="badge">Participant</span>
+                        <p>Got introduced to AI/ML and how it actually works</p>
+                        <span class="date"><i class="fa-regular fa-calendar"></i> 2025</span>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="dot1"></div>
+                    <div class="content">
+                        <h3>Google Student Ambassador</h3>
+                        <span class="badge">Ambassador</span>
+                        <p>Promoted Gemini and other Google Services</p>
+                        <span class="date"><i class="fa-regular fa-calendar"></i> 2025</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stats-bar">
+            <div class="stat">
+                <h3>2</h3>
+                <p>Awards Won</p>
+            </div>
+            <div class="stat">
+                <h3>3+</h3>
+                <p>Hackathons</p>
+            </div>
+            <div class="stat">
+                <h3>2+</h3>
+                <p>Certifications</p>
+            </div>
+            <div class="stat">
+                <h3>5+</h3>
+                <p>Events Attended</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="journey reveal" id="experience">
+        <span class="journey-pill">— MY JOURNEY</span>
+        <h1 class="journey-title">Work <span class="gradient-box">Experience</span></h1>
+        <p class="journey-sub">
+            A timeline of my professional growth and the milestones that shaped my career
+        </p>
+
+        <div class="timeline">
+
+            <div class="line"></div>
+
+            <div class="node left blue">
+                <span class="dot"></span>
+                <div class="card">
+                    <h3>Full-Stack Developer Intern</h3>
+                    <span class="company">7Script Technology Pvt Ltd</span>
+                    <span class="tag blue">Fulltime</span>
+                    <span class="date">Dec 2025 — Present · Ahmedabad</span>
+                    <p>Building responsive web applications.</p>
+                    <!-- <ul>
+                        <li>Improved Velox Car Services</li>
+                        <li>Updated 7tech Training Institute</li>
+                    </ul> -->
+                </div>
+            </div>
+
+            <!-- <div class="node right purple">
+                <span class="dot"></span>
+                <div class="card">
+                    <h3>Web Development Trainee</h3>
+                    <span class="company">Self Learning & Projects</span>
+                    <span class="tag purple">Learning</span>
+                    <span class="date">Jun 2023 — Dec 2023 · Remote</span>
+                    <p>Intensive self-learning focusing on modern web technologies, building personal projects.</p>
+                    <ul>
+                        <li>Completed 50+ coding challenges</li>
+                        <li>Built 5 full-stack projects</li>
+                        <li>Mastered React, Tailwind, and TypeScript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="node left orange">
+                <span class="dot"></span>
+                <div class="card">
+                    <h3>Freelance Developer</h3>
+                    <span class="company">Independent</span>
+                    <span class="tag orange">Freelance</span>
+                    <span class="date">Jan 2022 — May 2023 · Remote</span>
+                    <p>Started freelancing journey by building small business websites and web apps.</p>
+                    <ul>
+                        <li>Delivered 10+ client projects</li>
+                        <li>Maintained 100% client satisfaction</li>
+                        <li>Improved project management skills</li>
+                    </ul>
+                </div>
+            </div> -->
+
+        </div>
+
+        <div class="cta"><a href="mailto:tejashree.business@gmail.com">Want to work together? 🚀</a></div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+        <span class="contact-pill">— GET IN TOUCH</span>
+        <h1 class="contact-title">Let's Create <span class="gradient-box">Something</span></h1>
+        <p class="contact-sub">Have a project in mind or just want to chat? I'd love to hear from you!</p>
+
+        <div class="contact-grid">
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p class="info-sub">Feel free to reach out through any of these channels. I typically respond within 24
+                    hours.</p>
+
+                <div class="info-card">
+                    <div class="icon pink"><i class="fa-regular fa-envelope"></i></div>
+                    <div>
+                        <span>Email</span>
+                        <a href="mailto:tejashree.business@gmail.com" style="text-decoration: none;">
+                            <p>tejashree.business@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon pink"><i class="fa-solid fa-location-dot" style="color: #bca1b2;"></i></div>
+                    <div>
+                        <span>Location</span>
+                        <p>Ahmedabad</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" action="mailto:tejashree.business@gmail.com" method="POST" enctype="text/plain">
+                <div class="field-row">
+                    <div class="field">
+                        <label>Your Name *</label>
+                        <input type="text" name="Name" required>
+                    </div>
+
+                    <div class="field">
+                        <label>Your Email *</label>
+                        <input type="email" name="Email" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Your Message *</label>
+                    <textarea name="Message" required></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    <i class="fa-regular fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer reveal" id="footer">
+
+        <div class="footer-grid">
+
+            <!-- About -->
+            <div class="footer-about">
+                <a href="#home"><span class="gradient-blue">Tejashree Trivedi</span></a>
+                <p>Built with ❤️</p>
+                <p>Let's connect and create something amazing together!</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#experience">Journey</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="mailto:tejashree.business@gmail.com" class="email-circle">✉</a>
+                    <!-- <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a> -->
+                    <a href="https://www.linkedin.com/in/tejashreetrivedi/" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a> -->
+                    <!-- <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a> -->
+                </div>
+            </div>
+
+        </div>
+        <p>&copy; 2025 <span class="gradient-blue">Tejashree Trivedi</span> || All Rights Reserved</p>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18,15 12,9 6,15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
